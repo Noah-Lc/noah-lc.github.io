@@ -1,3 +1,4 @@
+import '../styles/bootstrap.min.css'
 import '../styles/main.css';
 import Vue from './vue.js'
 
@@ -6,7 +7,7 @@ var resumeData = {
       first: 'Noah',
       middle: '',
       last: 'Belahcen',
-      about: "I'm really like what i do and I have a lot of experience during many projects! I Have developed many mobile & web programs. Good communication skills and always willing to learn new technologies. Below are some of my technical skills.",
+      about: "I am a full stack developer, I work projects concerning mobile app development and web development. For the moment, I am working as a freelancer and as a software engineer in a private company. I am always ready to learn new technologies and start new projects. For any other information, feel free to contact me.",
       position: 'FULL STACK DEVELOPER'
     },
     contact:[
@@ -38,25 +39,25 @@ var resumeData = {
                     title: 'Data Flex',
                     descriptions: [
                       'Conception and Development of Mobile Application DawiDari.',
-                      'Creation a web API with ASP.NET Core MVC.',
-                      'Development a Mobile App in Flutter.',
+                      'Creation of a web API with ASP.NET Core MVC.',
+                      'Development a Mobile App with Flutter.',
                     ]
                 },
                 {
                     timeperiod: '2016+',
                     title: 'Freelance Works',
                     descriptions: [
-                      'Creation Mobile Applications with Xamarin forms(C#) and Java.',
-                      'Creation Web Applications with Python(Django) and Angular.',
-                      'Creation Mobile Games 2D and 3D with Unity(C#).',
+                      'Creation of Mobile Applications with Xamarin forms(C#) and Java.',
+                      'Creation of Web Applications with Python(Django) and Angular.',
+                      'Creation of Mobile Games 2D and 3D with Unity(C#).',
                     ]
                 },
                 {
                     timeperiod: 2016,
                     title: 'Ministry Of Justice',
                     descriptions: [
-                      'Conception and Development of Management Application.',
-                      'Creation ASP.NET Web Application Using MVC And Entity Framework.',
+                      'Conception and Development of a Management Application.',
+                      'Creation of ASP.NET Web Application Using MVC and Entity Framework.',
                       'Managment Project with Team Foundation Server (TFS)',
                     ]
                 }
