@@ -6,88 +6,13 @@
     <meta name="description" content="Noah Lc Resume">
     <meta name="author" content="Noah Lc">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" type="src/img/png" href="src/favicon.svg">
+    <link rel="icon" href="src/assets/favicon.ico">
   </head>
   <body>
-    <div class="container" id="resume" v-cloak>
-      <div id="app" class="row">
-        <div class="col-md-4" id="title">
-          <div class="avatar" id="avatar">
-          </div>
-          <h2 class="text-monospace">{{ fullName }}</h2>
-          <p class="text-muted" id="position"><span>{{ position }}</span></p>
-        </div>
-        <div class="col-md-8">
-          <div class="item-contact">
-            <div v-for="item in contact" class="text-muted contact" v-bind:class="item.type">
-              <template v-if="item.link">
-                <a :href="item.link">{{ item.value }}</a>
-              </template>
-              <template v-else>
-                {{ item.value }}
-              </template>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="text-muted" id="about">
-            {{ about }}
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-            <component v-for="(section, index) in sections"
-                        v-if="!section.right"
-                        v-bind:key="'section-left-' + index"
-                        v-bind:section="section"
-                        v-bind:is="section.template || 'resume-section'"></component>
-        </div>
-        <div class="col-md-6">
-            <component v-for="(section, index) in sections"
-                        v-if="section.right"
-                        v-bind:key="'section-right-' + index"
-                        v-bind:section="section"
-                        v-bind:is="section.template || 'resume-section'"></component>
-        </div>
-        <div class="col-md-12">
-          <component v-bind:hobbies="hobbies"
-                     v-bind:is="hobbies.template || 'hobbies-section'"></component>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/x-template" id="resume-section">
-      <section>
-        <h5 class="text-primary section-title">{{ section.title }}</h5>
-        <div class="sections">
-          <div class="section" v-for="item in section.items">
-            <h6 class="text-body subtitle">
-              <template v-if="item.timeperiod">{{ item.timeperiod }} - </template>
-              {{ item.title }}
-            </h6>
-            <template v-if="item.descriptions">
-              <div class="description" v-for="decription in item.descriptions">
-                <ul>
-                  <li class="text-muted">{{ decription }}</li>
-                </ul>
-              </div>
-            </template>
-          </div>
-        </div>
-      </section>
-    </script>
-
-    <script type="text/x-template" id="hobbies-section">
-      <section class="hobbies">
-        <h5 class="text-primary hobbies-title">{{ hobbies.title }}</h5>
-          <template v-for="hobby in hobbies.items">
-            <span>{{ hobby.title }}, </span>
-          </template>
-      </section>
-    </script>
-    <script src="dist/main.js"></script>
+    <noscript>
+      <strong>We're sorry but resume doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="./dist/build.js"></script>
   </body>
 </html>
