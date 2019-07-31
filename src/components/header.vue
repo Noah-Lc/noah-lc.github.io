@@ -2,15 +2,14 @@
   <div>
     <div id="resume" class="row">
       <div class="col-md-4" id="title">
-        <div class="avatar" id="avatar">
-        </div>
+        <amp-img src="../src/assets/img/avatar.png" layout="responsive" alt="avatar" height="238" width="250" id="avatar"></amp-img>
         <h1 class="text-monospace">{{ name.first + " " + name.last }}</h1>
         <p class="text-muted" id="position"><span>{{ name.position }}</span></p>
       </div>
       <div class="col-md-8">
         <div class="item-contact">
           <div v-for="item in contact" class="text-muted contact" v-bind:class="item.type">
-            <template v-if="item.link">
+            <template v-if="item.link" >
               <a :href="item.link">{{ item.value }}</a>
             </template>
             <template v-else>
@@ -53,7 +52,7 @@ export default {
 }
 </script>
 
-<style>
+<style amp-custom>
 #resume{
   padding-top: 20px;
 }
@@ -64,7 +63,6 @@ export default {
   background-size: 250px;
   height: 238px;
   width: 250px;
-  background-image: url('./../assets/img/avatar.png');
 }
 
 #title{

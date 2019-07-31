@@ -33,14 +33,14 @@ export default {
 }
 </script>
 
-<style>
+<style amp-custom>
 .interests{
   text-align: center;
   padding-bottom: 100px;
 }
 
 .interests-title{
-    color: #2ea0e4!important;
+    color: #217aad!important;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;

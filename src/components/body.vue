@@ -151,15 +151,11 @@ export default {
 
 </script>
 
-<style>
-.section-title{
-    color: #2ea0e4!important;
-    padding-left: 41px;
-}
+<style amp-custom>
 .section-title:before{
     position: absolute;
     content: " ";
-    background-color: #2ea0e4!important;
+    background-color: #217aad!important;
     border:solid 1px #fff;
     margin-top: 7px;
     margin-left: -45.5px;
@@ -171,7 +167,7 @@ export default {
 .sections{
   margin-top: -20px;
   padding-top: 15px;
-  border-left:2px solid #2ea0e4;
+  border-left:2px solid #217aad;
 }
 
 .section{
@@ -181,7 +177,7 @@ export default {
 .subtitle:before {
     position: absolute;
     content: " ";
-    background-color: #2ea0e4!important;
+    background-color: #217aad!important;
     border:solid 1px #fff;
     margin-top: 6px;
     margin-left: -43px;
