@@ -24,8 +24,9 @@ export default {
               items: [
                   {
                       timeperiod: 2019,
-                      title: 'Data Flex',
+                      title: 'DataFlex',
                       descriptions: [
+                        'Work as an active member of a remote team, Dopweb.',
                         'Conception and Development of Mobile Application DawiDari.',
                         'Creation of a web API with ASP.NET Core MVC.',
                         'Development a Mobile App with Flutter.',
@@ -53,7 +54,7 @@ export default {
           },
           {
               right: false,
-              title: 'EDUCATION',
+              title: 'STUDIES',
               items: [
                   {
                       timeperiod: 2019,

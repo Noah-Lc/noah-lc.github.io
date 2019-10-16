@@ -2,7 +2,7 @@
   <div>
     <div id="resume" class="row">
       <div class="col-md-4" id="title">
-        <amp-img src="../src/assets/img/avatar.png" layout="responsive" alt="avatar" height="238" width="250" id="avatar"></amp-img>
+        <amp-img src="./src/assets/img/avatar.webp" layout="responsive" alt="avatar" height="238" width="250" id="avatar"></amp-img>
         <h1 class="text-monospace">{{ name.first + " " + name.last }}</h1>
         <p class="text-muted" id="position"><span>{{ name.position }}</span></p>
       </div>
