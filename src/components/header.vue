@@ -2,13 +2,13 @@
   <div>
     <div id="resume" class="row">
       <div class="col-md-4" id="title">
-        <amp-img src="./src/assets/img/avatar.webp" layout="responsive" alt="avatar" height="238" width="250" id="avatar"></amp-img>
+        <img src="/src/assets/img/avatar.webp" layout="responsive" alt="avatar" height="238" width="250" id="avatar">
         <h1 class="text-monospace">{{ name.first + " " + name.last }}</h1>
         <p class="text-muted" id="position"><span>{{ name.position }}</span></p>
       </div>
       <div class="col-md-8">
         <div class="item-contact">
-          <div v-for="item in contact" class="text-muted contact" v-bind:class="item.type">
+          <div v-for="(item, index) in contact" class="text-muted contact" v-bind:class="item.type" v-bind:key="index">
             <template v-if="item.link" >
               <a :href="item.link">{{ item.value }}</a>
             </template>
@@ -44,7 +44,7 @@ export default {
       },
       contact:[
         { type: 'adress', value: 'Sala al-Jadida, Rabat , Morocco' },
-        { type: 'mail', value: 'Nouh.source@gmail.com' },
+        { type: 'mail', value: 'Noah.source@gmail.com' },
         { type: 'github', value: 'Github.com/Noah-lc', link: 'http://github.com/noah-lc' },
       ],
     }
@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style amp-custom>
+<style>
 #resume{
   padding-top: 20px;
 }

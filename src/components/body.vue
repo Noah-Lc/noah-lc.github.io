@@ -17,180 +17,157 @@ export default {
   components: { SectionRS },
   data(){
     return {
-      sections: [
-          {
-              right: false,
-              title: 'EXPERIENCE',
-              items: [
-                  {
-                      timeperiod: 2019,
-                      title: 'DataFlex',
-                      descriptions: [
-                        'Work as an active member of a remote team, Dopweb.',
-                        'Conception and Development of Mobile Application DawiDari.',
-                        'Creation of a web API with ASP.NET Core MVC.',
-                        'Development a Mobile App with Flutter.',
-                      ]
-                  },
-                  {
-                      timeperiod: '2016+',
-                      title: 'Freelance Works',
-                      descriptions: [
-                        'Creation of Mobile Applications with Xamarin forms(C#) and Java.',
-                        'Creation of Web Applications with Python(Django) and Angular.',
-                        'Creation of Mobile Games 2D and 3D with Unity(C#).',
-                      ]
-                  },
-                  {
-                      timeperiod: 2016,
-                      title: 'Ministry Of Justice',
-                      descriptions: [
-                        'Conception and Development of a Management Application.',
-                        'Creation of ASP.NET Web Application Using MVC and Entity Framework.',
-                        'Managment Project with Team Foundation Server (TFS)',
-                      ]
-                  }
-              ]
-          },
-          {
-              right: false,
-              title: 'STUDIES',
-              items: [
-                  {
-                      timeperiod: 2019,
-                      title: 'Skills training',
-                      descriptions: ['Analysis, Design, and Development Techniques with J2EE at NTIC.']
-                  },
-                  {
-                      timeperiod: 2018,
-                      title: 'Skills training',
-                      descriptions: ['Web and Mobile Applications Development at NTIC.']
-                  }, {
-                      timeperiod: 2016,
-                      title: 'Diplome Technicien Spécialisé',
-                      descriptions: ['Specialized Technician Diploma in Software Development.']
-                  },{
-                      timeperiod: 2014,
-                      title: 'Scientific Baccalaureate',
-                      descriptions: ['High-school Diploma in Physics at Mohammed V High School, Sala al-Jadida']
-                  }
-              ]
-          },
-          {
-              right: false,
-              title: 'CERTIFICATIONS',
-              items: [
-                  {
-                      timeperiod: 2018,
-                      title: 'Udacity',
-                      descriptions: ['Full Stack Developer']
-                  }, {
-                      timeperiod: 2016,
-                      title: 'Microsoft® Specialist',
-                      descriptions: ['Microsoft® Specialist: Programming in HTML5 with JavaScript and CSS3.']
-                  }, {
-                      timeperiod: 2016,
-                      title: 'Microsoft® Specialist',
-                      descriptions: ['Microsoft® Specialist: Programming in C#.']
-                  }
-              ]
-          },
-          {
-              right: true,
-              title: 'SKILLS',
-              items: [
-                  {
-                      title: 'Teamwork and autonomy',
-                      descriptions: ['Git, TFS.']
-                  }, {
-                      title: 'Technologies',
-                      descriptions: ['Python, PHP, C#(.NET 4.5), C/C++, Java']
-                  },
-                  {
-                      title: 'Web Technologies',
-                      descriptions: ['Angular, Vue, REST']
-                  }, {
-                      title: 'Frameworks',
-                      descriptions: ['Django, ASP.NET Core, Xamarin, J2EE']
-                  },
-                  {
-                      title: 'DataBase',
-                      descriptions: ['SQL, NoSQL']
-                  }, {
-                      title: 'DevOps and CI',
-                      descriptions: ['Docker, Vagrant, Travis CI']
-                  }, {
-                      title: 'GameDev',
-                      descriptions: ['Unity 3D, SDL, Tiled']
-                  }, {
-                      title: 'Learning new languages',
-                      descriptions: [
-                        'Mastery of MVC.',
-                        'Mastery  HTTP REST With JSON.'
-                    ]
-                  }
-              ]
-          }, {
-              right: true,
-              title: 'EXPERTISE',
-              items: [
-                  {
-                      title: 'Dynamic Websites Development',
-                  }, {
-                      title: 'Database Management',
-                  }, {
-                      title: 'Rest API Development',
-                  }, {
-                      title: 'Test Driven Development',
-                  }
-              ]
-          },
-      ]
+        sections: [
+            {
+                right: false,
+                title: 'EXPERIENCE',
+                items: [
+                    {
+                        timeperiod: '04/2018 → CURRENT',
+                        title: 'DataFlex',
+                        descriptions: [
+                            'Work as an active member of a remote team <strong>(VueJs, Asp Core)</strong>, <u><a href="https://www.77diamonds.com/">77Diamonds</a></u>.',
+                            'Work as an active member of a remote team <strong>(Angular)</strong>, <u><a href="https://dopweb.com/">Dopweb</a></u>.',
+                            'Conception and Development of Mobile Application DawiDari.',
+                            'Creation of a web API with <strong>ASP.NET Core</strong> MVC.',
+                            'Development a Mobile App with <strong>Flutter</strong>.',
+                        ]
+                    },
+                    {
+                        timeperiod: '2016 → 2018',
+                        title: 'Freelance Works',
+                        descriptions: [
+                            'Creation of Mobile Applications with <strong>Xamarin</strong> and <strong>Java</strong>.',
+                            'Creation of Web Applications with <strong>Python(Django)</strong> and <strong>Angular</strong>.',
+                            'Creation of Mobile Games 2D and 3D with <strong>Unity(C#)</strong>.',
+                        ]
+                    },
+                    {
+                        timeperiod: 2016,
+                        title: 'Ministry Of Justice',
+                        descriptions: [
+                            'Conception and Development of a Management Application.',
+                            'Creation of <strong>ASP.NET</strong> Web Application Using MVC and Entity Framework.',
+                            'Managment Project with Team Foundation Server (TFS)',
+                        ]
+                    }
+                ]
+            },
+            {
+                right: true,
+                title: 'PROJECTS',
+                items: [
+                    {
+                        timeperiod: '2020',
+                        title: '7imyah.com',
+                        descriptions: [
+                            'Setup and Deploy Website in a <strong>Docker</strong> environment.',
+                            'Creation of an Interactive Dashboards in <strong>Angular</strong>.',
+                            'Creation of the web interface with <strong>AMP</strong> technology, <u><a href="http://7imyah.com/">7imyah</a></u>',
+                            'Creation of the web API with <strong>Node Js</strong>.',
+                            'Project conception and development using <strong>MEAN</strong> stack.',
+                        ]
+                    }
+                ]
+            },
+            {
+                right: false,
+                title: 'STUDIES',
+                items: [
+                    {
+                        timeperiod: 2020,
+                        title: 'Computer System Engineering',
+                        descriptions: [
+                            'Mastery of statistical and data analysis methods.',
+                            'Participate in data engineering project for decision making.'
+                        ]
+                    },
+                    {
+                        timeperiod: 2019,
+                        title: 'Skills training',
+                        descriptions: ['Analysis, Design, and Development Techniques with J2EE at NTIC.']
+                    },
+                    {
+                        timeperiod: 2018,
+                        title: 'Skills training',
+                        descriptions: ['Web and Mobile Applications Development at NTIC.']
+                    }, {
+                        timeperiod: 2016,
+                        title: 'Specialized Technician Diploma',
+                        descriptions: ['Specialized Technician Diploma in Software Development.']
+                    },{
+                        timeperiod: 2014,
+                        title: 'Scientific Baccalaureate',
+                        descriptions: ['High-school Diploma in Physics']
+                    }
+                ]
+            },
+            {
+                right: false,
+                title: 'CERTIFICATIONS',
+                items: [
+                    {
+                        timeperiod: 2018,
+                        title: 'Udacity',
+                        descriptions: ['Full Stack Developer']
+                    }, {
+                        timeperiod: 2016,
+                        title: 'Microsoft® Specialist',
+                        descriptions: ['Microsoft® Specialist: Programming in HTML5 with JavaScript and CSS3.']
+                    }, {
+                        timeperiod: 2016,
+                        title: 'Microsoft® Specialist',
+                        descriptions: ['Microsoft® Specialist: Programming in C#.']
+                    }
+                ]
+            },
+            {
+                right: true,
+                title: 'SKILLS',
+                items: [
+                    {
+                        title: 'Teamwork and autonomy',
+                        descriptions: ['Git, TFS, Jira, Trello']
+                    }, {
+                        title: 'Technologies',
+                        descriptions: ['Python, C#, TypeScript, JavaScript']
+                    },
+                    {
+                        title: 'Web Technologies',
+                        descriptions: ['Angular, VueJs, Node Js, AMP, REST, GraphQL']
+                    }, {
+                        title: 'Frameworks',
+                        descriptions: ['Django, ASP.NET Core, Flutter']
+                    },
+                    {
+                        title: 'DataBase',
+                        descriptions: ['SQL, NoSQL']
+                    }, {
+                        title: 'DevOps and CI',
+                        descriptions: ['Docker, Vagrant, Travis CI']
+                    }, {
+                        title: 'Servers',
+                        descriptions: ['Windows Server, AWS']
+                    }
+                ]
+            },
+            {
+                right: true,
+                title: 'EXPERTISE',
+                items: [
+                    {
+                        title: 'MEAN, MERN Stack Web Development',
+                    }, {
+                        title: 'Database Management',
+                    }, {
+                        title: 'Rest API Development',
+                    }, {
+                        title: 'Test Driven Development',
+                    }
+                ]
+            },
+        ]
     }
   }
 }
-
 </script>
-
-<style amp-custom>
-.section-title:before{
-    position: absolute;
-    content: " ";
-    background-color: #217aad!important;
-    border:solid 1px #fff;
-    margin-top: 7px;
-    margin-left: -45.5px;
-    width: 11px;
-    height: 11px;
-    border-radius: 100%;
-}
-
-.sections{
-  margin-top: -20px;
-  padding-top: 15px;
-  border-left:2px solid #217aad;
-}
-
-.section{
-    padding: 0px 0 5px 38px;
-}
-
-.subtitle:before {
-    position: absolute;
-    content: " ";
-    background-color: #217aad!important;
-    border:solid 1px #fff;
-    margin-top: 6px;
-    margin-left: -43px;
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-}
-
-.description ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.4;
-}
-</style>

@@ -2,8 +2,8 @@
   <div class="col-md-12">
   <section class="interests">
     <h2 class="interests-title">{{ interests.title }}</h2>
-      <template v-for="interest in interests.items">
-        <span>{{ interest.title }} </span>
+      <template v-for="(interest, index) in interests.items">
+        <span v-bind:key="index">{{ interest.title }} </span>
       </template>
   </section>
 </div>
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style amp-custom>
+<style>
 .interests{
   text-align: center;
   padding-bottom: 100px;
