@@ -11,7 +11,7 @@
         <template v-if="item.descriptions">
           <div class="description" v-for="(decription, index) in item.descriptions" v-bind:key="index">
             <ul>
-              <li class="text-muted" v-html="decription"></li>
+              <li class="text-muted" v-html="'- ' + decription"></li>
             </ul>
           </div>
         </template>

@@ -1,10 +1,10 @@
 <template>
   <div class="row">
     <div class="col-md-6">
-      <SectionRS v-for="(section, index) in sections" v-if="!section.right" v-bind:section="section" v-bind:key="'section-left-' + index"/>
+      <SectionRS v-for="(section, index) in sections.filter(x => !x.right)" v-bind:section="section" v-bind:key="'section-left-' + index"/>
     </div>
     <div class="col-md-6">
-      <SectionRS v-for="(section, index) in sections" v-if="section.right" v-bind:section="section" v-bind:key="'section-right-' + index"/>
+      <SectionRS v-for="(section, index) in sections.filter(x => x.right)" v-bind:section="section" v-bind:key="'section-right-' + index"/>
     </div>
   </div>
 </template>
