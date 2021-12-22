@@ -39,11 +39,11 @@ export default {
         first: 'Noah',
         middle: '',
         last: 'Belahcen',
-        about: "I am a full stack developer, I work projects concerning mobile app development and web development. For the moment, I am working as a freelancer and as a software engineer in a private company. I am always ready to learn new technologies and start new projects. For any other information, feel free to contact me.",
+        about: "I'm an experienced full-stack developer who constantly seeks out innovative solutions to everyday problems. Since 4 years ago I worked on projects concerning mobile app development and web development and for the moment, I am working as a full-stack developer in a private company.",
         position: 'FULL STACK DEVELOPER'
       },
       contact:[
-        { type: 'adress', value: 'Sala al-Jadida, Rabat , Morocco' },
+        { type: 'adress', value: 'Rabat , Morocco' },
         { type: 'mail', value: 'Noah.source@gmail.com' },
         { type: 'github', value: 'Github.com/Noah-lc', link: 'http://github.com/noah-lc' },
       ],

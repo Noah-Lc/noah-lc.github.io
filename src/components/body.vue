@@ -26,6 +26,7 @@ export default {
                         timeperiod: '04/2018 → CURRENT',
                         title: 'DataFlex',
                         descriptions: [
+                            'Working as an active member of a remote team <strong>(ReactJs, Stitches, Storybook)</strong>, <u><a href="https://sho.ai/">Sho.ai</a></u>.',
                             'Work as an active member of a remote team <strong>(VueJs, Asp Core)</strong>, <u><a href="https://www.77diamonds.com/">77Diamonds</a></u>.',
                             'Work as an active member of a remote team <strong>(Angular)</strong>, <u><a href="https://dopweb.com/">Dopweb</a></u>.',
                             'Conception and Development of Mobile Application DawiDari.',
@@ -74,6 +75,15 @@ export default {
                 right: false,
                 title: 'STUDIES',
                 items: [
+                    {
+                        timeperiod: 2022,
+                        title: 'Information Systems Engineering',
+                        descriptions: [
+                            'Database administrator.',
+                            'IS Project Manager.',
+                            'IS study and development consultant.'
+                        ]
+                    },
                     {
                         timeperiod: 2020,
                         title: 'Computer System Engineering',
@@ -127,21 +137,19 @@ export default {
                 items: [
                     {
                         title: 'Teamwork and autonomy',
-                        descriptions: ['Git, TFS, Jira, Trello']
+                        descriptions: ['Git, TFS, Jira, Trello, Asana']
                     }, {
                         title: 'Technologies',
-                        descriptions: ['Python, C#, TypeScript, JavaScript']
-                    },
-                    {
+                        descriptions: ['C#, TypeScript, JavaScript, NodeJs']
+                    }, {
                         title: 'Web Technologies',
-                        descriptions: ['Angular, VueJs, Node Js, AMP, REST, GraphQL']
+                        descriptions: ['Stitches, AMP, REST, GraphQL']
                     }, {
                         title: 'Frameworks',
-                        descriptions: ['Django, ASP.NET Core, Flutter']
-                    },
-                    {
+                        descriptions: ['Angular, VueJs, ReactJs, ASP.NET Core']
+                    }, {
                         title: 'DataBase',
-                        descriptions: ['SQL, NoSQL']
+                        descriptions: ['SQL Server, PostgreSQL, MongoDB']
                     }, {
                         title: 'DevOps and CI',
                         descriptions: ['Docker, Vagrant, Travis CI']
@@ -156,8 +164,6 @@ export default {
                 title: 'EXPERTISE',
                 items: [
                     {
-                        title: 'MEAN, MERN Stack Web Development',
-                    }, {
                         title: 'Database Management',
                     }, {
                         title: 'Rest API Development',
