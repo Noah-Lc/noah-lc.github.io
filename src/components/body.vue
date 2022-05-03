@@ -62,7 +62,7 @@ export default {
                         timeperiod: '2021',
                         title: 'Stitches Theme Selector',
                         descriptions: [
-                            'A <u><a href="https://www.npmjs.com/package/multiple-themes-stitches">storybook addon</a></u> that allows your users to change the theme',
+                            'A <u><a href="https://www.npmjs.com/package/multiple-themes-stitches">storybook addon</a></u> that allows your users to change the theme.',
                         ]
                     },
                     {
