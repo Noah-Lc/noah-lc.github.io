@@ -1,0 +1,86 @@
+export default [
+  {
+    label: 'Project Manager & Full Stack Developer',
+    subtitle: 'WebDev26',
+    period: ['06/2021', 'Current'],
+    tasks: [
+      `Developed Furry Tag, a mobile app dedicated to pet care, using <b>React Native</b>.`,
+      `Architected app for optimal performance and user experience.`,
+      'Managed database design and integration using <b>Supabase</b>.',
+      'Wrote and set up <b>Jest</b> tests for project reliability.',
+      'Added new features to <b>Next.js</b>/<b>Vercel</b> projects, such <b>Stripe</b> integration.',
+      'Maintained high-quality, performant code standards in development.',
+    ],
+  },
+  {
+    label: 'Frontend Developer',
+    subtitle: 'Sho.ai (Work as an active member of a remote team)',
+    period: ['06/2021', '05/2022'],
+    tasks: [
+      'Developed the Sho.ai CMS for enhanced content management.',
+      'Converted designs to modular <b>ReactJs</b> components for web app adaptability.',
+      'Implemented <b>Stitches</b> for responsive and efficient styling in web applications.',
+      'Optimized <b>Next.js</b> websites for performance and scalability.',
+      'Set up <b>Storybook</b> and <b>Jest</b> testing for enhanced project reliability.',
+    ],
+  },
+  {
+    label: 'Full Stack Developer',
+    subtitle: '77Diamonds (Work as an active member of a remote team)',
+    period: ['02/2020', '06/2021'],
+    tasks: [
+      'Architected and implemented key infrastructure services.',
+      'Analyzed and designed databases for optimal performance.',
+      'Developed services using <b>ASP Core</b> for robust back-end functionality.',
+      'Enhanced front-end system performance with <b>Vue.js</b>.',
+    ],
+  },
+  {
+    label: 'Frontend Developer',
+    subtitle: 'Dopweb (Work as an active member of a remote team)',
+    period: ['08/2018', '02/2020'],
+    tasks: [
+      'Developed the Dopweb Builder for website creation in <b>Angular</b>',
+      'Implemented mobile view editing feature in <b>Angular</b> for site optimization.',
+      'Improved <b>SEO</b> and responsiveness of builder-generated sites.',
+      'Optimized <b>AMP</b> pages for enhanced <b>SEO</b> and user experience.',
+      'Enabled Instagram and Google integrations for website connectivity.',
+      'Ensured 100% <b>Google Lighthouse</b> scores via targeted code optimization.',
+      'Developed backend services and API integrations using <b>Node.js</b>.',
+    ],
+  },
+  {
+    label: 'Project Manager & Full Stack Developer',
+    subtitle: 'Dataflex (Rabat, Morocco)',
+    period: ['04/2018', '02/2020'],
+    tasks: [
+      'Architected and led DawiDari app development, focusing on scalability.',
+      'Developed a scalable <b>ASP Core</b> Web API for app data communication.',
+      'Developed an <b>Angular</b> dashboard for key metrics and user data.',
+      'Managed <b>Flutter</b> app development, ensuring quality and deadlines.',
+      'Managed a team of two, overseeing project timelines.',
+      `Attracted investor interest, contributing to the app's ongoing success.`,
+    ],
+  },
+  {
+    label: 'Full Stack Developer',
+    subtitle: 'Freelance Works',
+    period: ['2016', '2018'],
+    tasks: [
+      'Creation of Mobile Applications with <b>Xamarin</b> and <b>Java</b>.',
+      'Creation of Web Applications with <b>Python(Django)</b> and <b>Angular</b>.',
+      'Creation of Mobile Games 2D and 3D with <b>Unity(C#)</b>.',
+    ],
+  },
+  {
+    label: 'Internship',
+    subtitle: 'Ministry Of Justice',
+    period: '2016 ',
+    tasks: [
+      'Conception and Development of a Management Application.',
+      'Creation of <b>ASP.NET</b> Web Application Using MVC and Entity Framework.',
+      'Designed and implemented a <b>SQL Server</b> database, focusing on scalability.',
+      'Management Project with Team Foundation Server (TFS).',
+    ],
+  },
+]
