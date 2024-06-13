@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://noah-lc.github.io/",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "enzyme": "^3.8.0",
