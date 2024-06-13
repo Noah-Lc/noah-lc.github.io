@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://noah-lc.github.io/",
+  "homepage": "https://noah-lc.github.io/build/",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "enzyme": "^3.8.0",
