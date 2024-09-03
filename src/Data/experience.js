@@ -2,9 +2,14 @@ export default [
   {
     label: 'Project Manager & Full Stack Developer',
     subtitle: 'WebDev26',
-    period: ['06/2021', 'Current'],
+    period: ['06/2022', 'Current'],
     tasks: [
-      `Developed Furry Tag, a mobile app dedicated to pet care, using <b>React Native</b>.`,
+      'Implemented <b>OpenAI</b> for chat features in various projects',
+      'Integrated <b>AWS services</b>, including CloudWatch, S3, DynamoDB, Cognito, and more.',
+      'Integrated <b>Google Cloud services</b> such as Firebase, Pub/Sub and more.',
+      'Worked on multiple projects, including the prominent <a href="https://qrmenu.com">QRMenu</a>',
+      'Used <b>Next.js</b> and <b>Vercel</b> with <b>Tailwind</b> for design.',
+      `Developed <a href="https://apps.apple.com/us/app/furry-tag-dog-whistle-logs/id6444339046">Furry Tag</a>, a mobile app dedicated to pet care, using <b>React Native</b>.`,
       `Architected app for optimal performance and user experience.`,
       'Managed database design and integration using <b>Supabase</b>.',
       'Wrote and set up <b>Jest</b> tests for project reliability.',
@@ -14,7 +19,7 @@ export default [
   },
   {
     label: 'Frontend Developer',
-    subtitle: 'Sho.ai (Work as an active member of a remote team)',
+    subtitle: 'Sho.ai (Worked remotely as a Dataflex contractor for another company)',
     period: ['06/2021', '05/2022'],
     tasks: [
       'Developed the Sho.ai CMS for enhanced content management.',
@@ -26,7 +31,7 @@ export default [
   },
   {
     label: 'Full Stack Developer',
-    subtitle: '77Diamonds (Work as an active member of a remote team)',
+    subtitle: '77Diamonds (Worked remotely as a Dataflex contractor for another company)',
     period: ['02/2020', '06/2021'],
     tasks: [
       'Architected and implemented key infrastructure services.',
@@ -37,7 +42,7 @@ export default [
   },
   {
     label: 'Frontend Developer',
-    subtitle: 'Dopweb (Work as an active member of a remote team)',
+    subtitle: 'Dopweb (Worked remotely as a Dataflex contractor for another company)',
     period: ['08/2018', '02/2020'],
     tasks: [
       'Developed the Dopweb Builder for website creation in <b>Angular</b>',
